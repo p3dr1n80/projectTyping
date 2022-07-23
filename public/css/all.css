@@ -1,0 +1,139 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css');
+
+
+body {
+    background-color: floralwhite;
+}
+
+.navbar-nav {
+    margin-left: 15%;
+}
+
+.title{
+    font-family: "Times New Roman", serif;
+    margin: 0 425px 0 425px;
+    color: #4285f4;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.title:hover{
+    color: red;
+    font-family: "Times New Roman", serif;
+    transform: scale3d(1.1,1.2,1.3);
+}
+
+.title-page, .description-page, .list, .field-typing, .field-counts{
+    text-align: center;
+}
+
+.field-counts {
+    margin-bottom: 100px;
+}
+
+.characters, .full_words{
+ display: inline-block;
+ margin-left: 0.3%;
+}
+
+.bi-file-text-fill, .bi-alarm-fill{
+    font-size: 22px;
+}
+
+.icon-seconds, .icon-document {
+    display: block;
+}
+
+.icon-alarm {
+    margin-bottom: 10px;
+}
+
+.actions{
+    margin-left: 15%;
+}
+
+.text-area {
+    width: 70%;
+    color: #01579b;
+    font-weight: bold;
+    outline: none;
+}
+
+.border-success-text-area {
+    border: solid green 2px;
+}
+
+.border-error-text-area {
+    border: solid red 2px;
+}
+
+.remove {
+    display: none;
+}
+
+.bi-bootstrap-reboot {
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bi-bootstrap-reboot:hover {
+    color: #4285f4;
+}
+
+.bi-eye-slash-fill {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bi-eye-slash-fill:hover {
+    color: #4285f4
+}
+
+.bi-eye-fill {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.bi-eye-fill:hover {
+    color: #4285f4
+}
+
+.score-board{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table{
+    text-align: center;
+    color: black;
+}
+
+.head-name, .head-number-characters, .actions-score {
+    color: white;
+}
+
+.add_effect_line:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+.bi-trash-fill {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bi-trash-fill:hover {
+    color: red;
+    font-size: 17px;
+}
+
+.effect_remove {
+    transition: 2s;
+    color: red;
+    opacity: 20%;
+}
