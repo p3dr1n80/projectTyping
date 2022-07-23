@@ -105,6 +105,8 @@ function count_time(seconds) {
                     clearInterval(interval);
                     $('#reset').toggleClass('remove');
                     textArea.attr('disabled', true);
+                    include_score();
+                    window.location.href = "#data_table";
                 }
             }, 1000);
     });
@@ -123,8 +125,8 @@ function reloadGame() {
     reset.click(function () {
         textArea.removeClass('border-error-text-area');
         textArea.attr('disabled', false);
-        if (textArea.val() !== '') {
-            include_score();
+        if (textArea.val() == '') {
+            return;
         }
         textArea.val('');
         $('.seconds').text('5');
